@@ -42,13 +42,31 @@ export default {
     '/img-logo/Gallere_neo/n4.jpg',
     '/img-logo/Gallere_neo/n5.jpg',
     '/img-logo/Gallere_neo/n6.jpg',
-    '/img-logo/Gallere_neo/n7.jpg'
+    '/img-logo/Gallere_neo/n7.jpg',
+    '/img-logo/Gallere_neo/n8.jpg',
+    '/img-logo/Gallere_neo/n9.jpg',
+    '/img-logo/Gallere_neo/n10.jpg',
+    '/img-logo/Gallere_neo/n11.jpg',
+    '/img-logo/Gallere_neo/n12.jpg',
+    '/img-logo/Gallere_neo/n13.jpg',
+    '/img-logo/Gallere_neo/n14.jpg',
+    '/img-logo/Gallere_neo/n15.jpg',
+    '/img-logo/Gallere_neo/n16.jpg',
   ]" />
 
 
 </template>
 
 <style>
+@media (max-width: 1100px){
+  .galleri_button{
+    width: 1151px;
+  }
+  .img_conteiner{
+    width: 1176px
+  }
+}
+
 body {
   background-color: black;
 }
@@ -93,6 +111,7 @@ body {
 
 .galleri_button {
   text-align: center;
+  margin-bottom: 50px;
 }
 
 .galleri_button button {

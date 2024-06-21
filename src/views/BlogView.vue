@@ -28,15 +28,22 @@ export default {
           <span>Instragram</span>
         </button>
       </a>
+      <!-- <div class="blogs">
+      <iframe width="320" height="540" src="https://www.instagram.com/p/C7ygQhhirHN/embed/" frameborder="0"></iframe>-->
     </div>
-    <!-- <div class="blogs">
-      <iframe width="320" height="540" src="https://www.instagram.com/p/C7ygQhhirHN/embed/" frameborder="0"></iframe>
-    </div> -->
   </div>
 
 </template>
 
 <style>
+@media (max-width: 1200px){
+  .about p {
+    margin: 0 95px 47px 104px;
+    font-size: 28px;
+    line-height: 41px;
+  }
+}
+
 body {
   background-color: black;
 }

@@ -51,6 +51,12 @@
 </template>
 
 <style>
+@media (max-width: 600px){
+  .item nav ul{
+    flex-direction: column;
+  }
+}
+
   /* .head.light {
     background: #fff;
   }

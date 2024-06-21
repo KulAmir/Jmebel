@@ -54,12 +54,39 @@ export default {
     '/img-logo/Gallere_mod/m14.jpg',
     '/img-logo/Gallere_mod/m15.jpg',
     '/img-logo/Gallere_mod/m16.jpg',
-    '/img-logo/Gallere_mod/m17.jpg'
+    '/img-logo/Gallere_mod/m17.jpg',
+    '/img-logo/Gallere_mod/s1.jpg',
+    '/img-logo/Gallere_mod/s2.jpg',
+    '/img-logo/Gallere_mod/s3.jpg',
+    '/img-logo/Gallere_mod/s4.jpg',
+    '/img-logo/Gallere_mod/s5.jpg',
+    '/img-logo/Gallere_mod/s6.jpg',
+    '/img-logo/Gallere_mod/s7.jpg',
+    '/img-logo/Gallere_mod/s8.jpg',
+    '/img-logo/Gallere_mod/s9.jpg',
+    '/img-logo/Gallere_mod/s10.jpg',
+    '/img-logo/Gallere_mod/s12.jpg',
+    '/img-logo/Gallere_mod/s13.jpg',
+    '/img-logo/Gallere_mod/s14.jpg',
+    '/img-logo/Gallere_mod/s15.jpg',
+    '/img-logo/Gallere_mod/s16.jpg',
+    '/img-logo/Gallere_mod/s18.jpg',
+    '/img-logo/Gallere_mod/s19.jpg'
+
   ]" />
 
 </template>
 
 <style>
+@media (max-width: 1100px){
+  .galleri_button{
+    width: 1151px;
+  }
+  .img_conteiner{
+    width: 1176px
+  }
+}
+
 body {
   background-color: black;
   width: 100%;

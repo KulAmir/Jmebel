@@ -43,6 +43,10 @@ export default {
     <a href="/neo"><button class="g_button3">Неоклассика</button></a>
   </div>
 
+  <div class="about">
+    <h2>Кухня</h2>
+  </div>
+
   <swiper :modules="modules" :slides-per-view="3" :space-between="50" navigation :pagination="{ clickable: true }"
     :scrollbar="{ draggable: true }" @swiper="onSwiper" @slideChange="onSlideChange">
     <swiper-slide><img src="/img-logo/Gallere_neo/n1.jpg" width="500"></swiper-slide>
@@ -70,9 +74,47 @@ export default {
     <swiper-slide><img src="/img-logo/Gallere_mod/m17.jpg" width="500"></swiper-slide>
   </swiper>
 
+  <div class="about">
+    <h2>Шкафы</h2>
+  </div>
+
+  <swiper :modules="modules" :slides-per-view="3" :space-between="50" navigation :pagination="{ clickable: true }"
+    :scrollbar="{ draggable: true }" @swiper="onSwiper" @slideChange="onSlideChange">
+    <swiper-slide><img src="/img-logo/Gallere_mod/s1.jpg" width="500"></swiper-slide>
+    <swiper-slide><img src="/img-logo/Gallere_mod/s2.jpg" width="500"></swiper-slide>
+    <swiper-slide><img src="/img-logo/Gallere_mod/s3.jpg" width="500"></swiper-slide>
+    <swiper-slide><img src="/img-logo/Gallere_mod/s4.jpg" width="500"></swiper-slide>
+    <swiper-slide><img src="/img-logo/Gallere_neo/n8.jpg" width="500"></swiper-slide>
+    <swiper-slide><img src="/img-logo/Gallere_neo/n9.jpg" width="500"></swiper-slide>
+    <swiper-slide><img src="/img-logo/Gallere_neo/n10.jpg" width="500"></swiper-slide>
+    <swiper-slide><img src="/img-logo/Gallere_neo/n11.jpg" width="500"></swiper-slide>
+    <swiper-slide><img src="/img-logo/Gallere_neo/n12.jpg" width="500"></swiper-slide>
+    <swiper-slide><img src="/img-logo/Gallere_mod/s10.jpg" width="500"></swiper-slide>
+    <swiper-slide><img src="/img-logo/Gallere_neo/n12.jpg" width="500"></swiper-slide>
+    <swiper-slide><img src="/img-logo/Gallere_mod/s12.jpg" width="500"></swiper-slide>
+    <swiper-slide><img src="/img-logo/Gallere_mod/s13.jpg" width="500"></swiper-slide>
+    <swiper-slide><img src="/img-logo/Gallere_neo/n13.jpg" width="500"></swiper-slide>
+    <swiper-slide><img src="/img-logo/Gallere_mod/s15.jpg" width="500"></swiper-slide>
+    <swiper-slide><img src="/img-logo/Gallere_mod/s16.jpg" width="500"></swiper-slide>
+    <swiper-slide><img src="/img-logo/Gallere_neo/n14.jpg" width="500"></swiper-slide>
+    <swiper-slide><img src="/img-logo/Gallere_mod/s18.jpg" width="500"></swiper-slide>
+    <swiper-slide><img src="/img-logo/Gallere_neo/n16.jpg" width="500"></swiper-slide>
+  
+  </swiper>
+
 </template>
 
 <style>
+
+@media (max-width: 1100px){
+  .galleri_button{
+    width: 1151px;
+  }
+  .swiper-horizontal{
+    width: 1151px;
+  }
+}
+
 :root {
   --swiper-navigation-size: 73px;
 }
@@ -94,8 +136,22 @@ export default {
   color: rgb(255, 173, 22);
 }
 
+.swiper-horizontal {
+    margin-bottom: 75px;
+  }
+
 body {
   background-color: black;
+}
+
+.about h3{
+  color: #fdc200;
+  font-size: 43px;
+  line-height: 43px;
+  text-transform: uppercase;
+  letter-spacing: 0.6px;
+  text-align: center;
+  margin-bottom: 50px;
 }
 
 .about h2 {
