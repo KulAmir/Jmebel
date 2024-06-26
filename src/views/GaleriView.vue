@@ -107,11 +107,11 @@ export default {
 <style>
 
 @media (max-width: 1100px){
-  .galleri_button{
-    width: 1151px;
+  .swiper-slide{
+    display:contents;
   }
-  .swiper-horizontal{
-    width: 1151px;
+  .swiper-wrapper{
+    font-size: 50px;
   }
 }
 

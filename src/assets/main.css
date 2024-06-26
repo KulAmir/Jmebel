@@ -373,6 +373,7 @@ body {
   .item {
     flex-direction: column;
     align-items: end;
+            margin: -25px;
   }
   .head {
     align-items: start;

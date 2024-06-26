@@ -89,6 +89,9 @@ export default {
  .animated-button .text {
   font-size: 14px;
  }
+ .rassrotha{
+  display: contents
+ }
  .rassrotha button {
   font-size: 14px;
  }
@@ -105,7 +108,7 @@ export default {
 }
 
 .anim-butt{
-  /* margin-bottom: 50px; */
+  margin-bottom: 50px;
 }
 
 .rassrotha button{

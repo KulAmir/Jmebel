@@ -25,11 +25,7 @@ export default {
 
 <style>
 
-@media (max-width: 1200px){
-  /* .ras_info{
-    width: 1338px;;
-   } */
-  }
+
 
 body {
   background-color: black;
@@ -139,5 +135,24 @@ h1{
   background: linear-gradient(32deg, #fdd759, #9f7a00, #ffeb3b, #fdc200);
 }
 
+@media (max-width: 1200px){
+  .ras_info h3{
+    font-size: 20px;
+    line-height: 35px;
+   }
+  .ras_info h2{
+    font-size: 20px;
+    line-height: 39px;
+    margin: auto;
+  }
+  .ras_info h1{
+    font-size: 20px;
+    line-height: 39px;
+    margin: auto;
+  }
+  .ras_info img{
+    max-width:25px;
 
+  }
+  }
 </style>

@@ -58,14 +58,7 @@ export default {
 </template>
 
 <style>
-@media (max-width: 1100px){
-  .galleri_button{
-    width: 1151px;
-  }
-  .img_conteiner{
-    width: 1176px
-  }
-}
+
 
 body {
   background-color: black;
@@ -156,5 +149,13 @@ body {
 .galleri_button button:active {
   box-shadow: none;
   transform: translateY(0);
+}
+
+@media (max-width: 1100px){
+  .about p {
+    margin: auto;
+    font-size: 14px;
+    line-height: 20px;
+  }
 }
 </style>
