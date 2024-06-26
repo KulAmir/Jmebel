@@ -151,8 +151,8 @@ h1{
     margin: auto;
   }
   .ras_info img{
-    max-width:25px;
-
+    max-width:157px;
+    margin: auto;
   }
   }
 </style>
