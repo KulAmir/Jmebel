@@ -153,7 +153,7 @@ body {
 
 @media (max-width: 1100px){
   .about p {
-    margin: auto;
+    margin: 0 20px 20px;
     font-size: 14px;
     line-height: 20px;
   }

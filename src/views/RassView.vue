@@ -145,18 +145,19 @@ h1 {
   .ras_info h3 {
     font-size: 20px;
     line-height: 35px;
+    margin: 23px 50px 30px;
   }
 
   .ras_info h2 {
     font-size: 20px;
     line-height: 39px;
-    margin: auto;
+    margin: 30px 50px 17px;
   }
 
   .ras_info h1 {
     font-size: 20px;
     line-height: 39px;
-    margin: auto;
+    margin: 25px 20px 45px;
   }
 
   .ras_info img {

@@ -51,7 +51,8 @@ body {
 .header-menu-list {
   display: flex;
   column-gap: 50px;
-  float: right
+  float: right;
+  list-style: none;
 }
 
 .header-menu-link {
