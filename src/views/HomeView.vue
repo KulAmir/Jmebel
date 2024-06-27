@@ -23,7 +23,7 @@ export default {
               <br>
               JMebel
             </h1>
-            <p>Проектная фабрика на базе мебельного и столярного производств</p>
+            <p>Проектная фабрика на базе мебельного производства</p>
           </div>
           <div class="anim-butt">
             <a href="https://api.whatsapp.com/send/?phone=77716419516&text&type=phone_number&app_absent=0" target="_blank"> 

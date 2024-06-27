@@ -184,6 +184,7 @@ body {
   border-radius: 7px;
   cursor: pointer;
   transition: all .3s;
+  margin-bottom: 15px;
 }
 
 
