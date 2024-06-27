@@ -328,10 +328,11 @@
 
   .buttn{
     display: flex;
+    flex-direction: row-reverse;
   }
 
   .Btn-tt{
-    margin: 0px 30px 0;
+    margin: 0px 25px 0;
   }
 }
 </style>
