@@ -178,7 +178,7 @@
   }
 
   .logo {
-    margin: -55px;
+    margin: -67px;
   }
 
   .header-menu {
